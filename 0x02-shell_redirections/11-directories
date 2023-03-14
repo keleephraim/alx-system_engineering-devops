@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -name ".*" -prune -o -type d -print | wc -l
+ls -l | grep ^d | wc -l
